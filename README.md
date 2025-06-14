@@ -27,7 +27,7 @@ Emular: “Imitar las acciones de otro procurando igualarlas e incluso excederla
 
 Sopa de letras: "Pasatiempo consistente en encontrar ciertas palabras dentro de un cuadro compuesto de letras aparentemente desordenadas." (RAE, definición 1ª, disponible en: https://dle.rae.es/sopa)
 
-Python: 
+Python: "Python es un lenguaje de programación interpretado, orientado a objetos y de alto nivel, con semántica dinámica." (Python, disponible en https://www.python.org/doc/essays/blurb/)
 
 
 
