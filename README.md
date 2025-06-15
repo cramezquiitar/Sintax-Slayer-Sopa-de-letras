@@ -36,4 +36,4 @@ Desarrollar una sopa de letras en Python de mínimo 10x10 y maximo 30x30 con pla
 
 # Lluvia de ideas:
 
-Decidimos hacer una lluvia de ideas para entender el problema y plantear como abordadr la solucion de este, algunas de las ideas fueron:
+Decidimos hacer una lluvia de ideas para entender el problema y plantear cómo abordar la solución. Algunas de las ideas fueron:
