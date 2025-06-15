@@ -33,3 +33,7 @@ Python: "Python es un lenguaje de programación interpretado, orientado a objeto
 
 # Objetivo: 
 Desarrollar una sopa de letras en Python de mínimo 10x10 y maximo 30x30 con plabras que estén relacionadas con nuestra carrera (Ingeniría Civil) usando lo aprendido en el curso.
+
+# Lluvia de ideas
+
+Decidimos hacer un a lluvia de ideas para tener un planteamiento de lo que entendemos 
