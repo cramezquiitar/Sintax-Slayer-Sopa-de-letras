@@ -36,4 +36,39 @@ Desarrollar una sopa de letras en Python de mínimo 10x10 y maximo 30x30 con pla
 
 # Lluvia de ideas:
 
-Decidimos hacer una lluvia de ideas para entender el problema y plantear cómo abordar la solución. Algunas de las ideas fueron:
+Decidimos hacer una lluvia de ideas para entender el problema y plantear cómo abordar la solución. Algunas de las ideas fueron: 
+
+# FUNCIONALIDADES BÁSICAS
+Generar sopa de letras en consola.
+
+Cargar lista de palabras desde archivo.
+
+Insertar palabras en direcciones: horizontal, vertical, diagonal.
+
+Verificar si una palabra ingresada por el usuario está en la sopa.
+
+Mostrar la palabra encontrada resaltada (con colores o mayúsculas).
+
+Limitar número de intentos por palabra.
+
+# MECÁNICAS DE JUEGO
+Dificultad seleccionable (tamaño de matriz, número de palabras).
+
+Temporizador para resolver la sopa.
+
+Puntuación por palabra encontrada.
+
+Penalización por errores o tiempo.
+
+Modo contrarreloj o por turnos.
+
+# LGORITMOS Y LÓGICA
+Algoritmo de inserción de palabras sin colisiones.
+
+Uso de matrices (listas anidadas) para representar el tablero.
+
+Búsqueda en 8 direcciones (↔ ↕ ↘ ↙ ↗ ↖).
+
+Marcar letras usadas para evitar sobreposiciones inválidas.
+
+Algoritmo de validación rápida de respuestas.
