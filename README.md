@@ -12,7 +12,7 @@
 - Nicolas Valle
 
 # Explicacion alternativa 
-Nosotros como equipo escogimos la alternatiiva 1 para entenderla y desarrollarla
+Nosotros como equipo escogimos la alternativa 1 para entenderla y desarrollarla
 
 La alternativa es: Construir una aplicación que emule una sopa de letras utilizando Python.
 
@@ -31,14 +31,14 @@ Python: "Python es un lenguaje de programación interpretado, orientado a objeto
 
 ![image](https://github.com/user-attachments/assets/d5afc8ca-5baf-4f2d-ba82-7c76509bb56f)
 
-# Objetivo: 
+## Objetivo: 
 Desarrollar una sopa de letras en Python de mínimo 10x10 y maximo 30x30 con plabras que estén relacionadas con nuestra carrera (Ingeniría Civil) usando lo aprendido en el curso.
 
-# Lluvia de ideas:
+## Lluvia de ideas:
 
 Decidimos hacer una lluvia de ideas para entender el problema y plantear cómo abordar la solución. Algunas de las ideas fueron: 
 
-# FUNCIONALIDADES BÁSICAS
+### -FUNCIONALIDADES BÁSICAS
 Generar sopa de letras en consola.
 
 Cargar lista de palabras desde archivo.
@@ -51,7 +51,7 @@ Mostrar la palabra encontrada resaltada (con colores o mayúsculas).
 
 Limitar número de intentos por palabra.
 
-# MECÁNICAS DE JUEGO
+### -MECÁNICAS DE JUEGO
 Dificultad seleccionable (tamaño de matriz, número de palabras).
 
 Temporizador para resolver la sopa.
@@ -62,7 +62,7 @@ Penalización por errores o tiempo.
 
 Modo contrarreloj o por turnos.
 
-# LGORITMOS Y LÓGICA
+### -ALGORITMOS Y LÓGICA
 Algoritmo de inserción de palabras sin colisiones.
 
 Uso de matrices (listas anidadas) para representar el tablero.
