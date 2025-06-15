@@ -29,5 +29,8 @@ Sopa de letras: "Pasatiempo consistente en encontrar ciertas palabras dentro de 
 
 Python: "Python es un lenguaje de programación interpretado, orientado a objetos y de alto nivel, con semántica dinámica." (Python, disponible en https://www.python.org/doc/essays/blurb/)
 
+![image](https://github.com/user-attachments/assets/d5afc8ca-5baf-4f2d-ba82-7c76509bb56f)
+
+
 
 
