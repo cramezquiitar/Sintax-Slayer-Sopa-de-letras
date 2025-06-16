@@ -87,3 +87,50 @@ Búsqueda en 8 direcciones (↔ ↕ ↘ ↙ ↗ ↖).
 Marcar letras usadas para evitar sobreposiciones inválidas.
 
 Algoritmo de validación rápida de respuestas.
+
+```mermaid 
+graph TD
+    A[Inicio del proyecto] --> B[Lluvia de ideas]
+    A --> C[Palabras clave]
+    A --> D[Objetivos del proyecto]
+
+    B --> B1[Funcionalidades básicas]
+    B --> B2[Diseño de interfaz]
+    B --> B3[Algoritmos necesarios]
+    B --> B4[Aplicaciones educativas]
+    B --> B5[Ampliaciones futuras]
+
+    C --> C1[Construir: hacer algo con elementos - RAE]
+    C --> C2[Aplicación: programa específico - RAE]
+    C --> C3[Emular: imitar acciones - RAE]
+    C --> C4[Sopa de letras: juego de palabras - RAE/Wikipedia]
+    C --> C5[Python: lenguaje interpretado, modular - Wikipedia]
+
+    D --> D1[Objetivo general: crear sopa de letras en Python]
+    D --> D2[Objetivos específicos]
+    
+    D2 --> D2a[Usar estructuras de datos]
+    D2 --> D2b[Aplicar algoritmos de inserción/búsqueda]
+    D2 --> D2c[Automatizar generación del tablero]
+    D2 --> D2d[Diseñar interfaz simple]
+    D2 --> D2e[Usar vocabulario de Ingeniería Civil]
+    D2 --> D2f[Validación de tamaño]
+    D2 --> D2g[Reutilización de código]
+    D2 --> D2h[Control de errores]
+
+    A --> E[Desarrollo del programa]
+
+    E --> E1[Diseño lógico del sistema]
+    E --> E2[Codificación en Python]
+    E --> E3[Pruebas y validaciones]
+    E --> E4[Optimización y mejoras]
+    E --> E5[Documentación del proyecto]
+
+    A --> F[Posibles ampliaciones]
+
+    F --> F1[Interfaz gráfica con Tkinter o Pygame]
+    F --> F2[Sopa de letras con pistas o temas]
+    F --> F3[Exportar a imagen o PDF]
+    F --> F4[Ranking o puntuación]
+    F --> F5[Versión web o app móvil]
+```
