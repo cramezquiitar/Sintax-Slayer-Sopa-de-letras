@@ -246,3 +246,4 @@ flowchart TD
     AC --> AD[FIN]
 
 ```
+![image](https://github.com/user-attachments/assets/63c3657a-8eb2-4673-be40-d76b8337d964)
