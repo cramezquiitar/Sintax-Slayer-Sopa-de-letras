@@ -135,7 +135,7 @@ graph TD
     F --> F5[Versión web o app móvil]
 ```
 
-
+# Pseudo Código
 ```
 INICIO
 
