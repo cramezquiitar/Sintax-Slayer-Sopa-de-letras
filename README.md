@@ -16,10 +16,10 @@ Nosotros como equipo escogimos la alternativa 1 para entenderla y desarrollarla
 
 La alternativa es: Construir una aplicación que emule una sopa de letras utilizando Python.
 
-Para comenzar abordando el problema planteado decidimos desglosarlo y estenderlo por partes más pequeñas para facilitar el trabajo: 
+#### Para comenzar abordando el problema planteado decidimos desglosarlo y estenderlo por partes más pequeñas para facilitar el trabajo: 
 
 
-Que es una sopa de letras?
+## Qué es una sopa de letras? 🥣
 Una sopa de letras es un juego de palabras que consiste en encontrar palabras ocultas dentro de una cuadrícula de letras dispuestas en filas y columnas. Estas palabras pueden estar colocadas en cualquier dirección
 
 
@@ -43,7 +43,7 @@ Desarrollar una aplicación en Python que genere y permita jugar una sopa de let
 
 ![image](https://github.com/user-attachments/assets/cd79d883-b451-4d22-97b3-672ce2ba738d)
 
-## Palabras Clave: 
+## Palabras Clave: 📋
 
 Construir: “Hacer algo utilizando los elementos adecuados.” (RAE, definición 2ª, disponible en: https://dle.rae.es/construir)
 
@@ -141,7 +141,7 @@ graph TD
     F --> F5[Versión web o app móvil]
 ```
 
-# Pseudo Código
+## Pseudo Código 🪢
 ```
 INICIO
 
@@ -200,7 +200,7 @@ INICIO
 FIN
 ```
 
-# Diagrama de flujo
+# Diagrama de flujo 🖋️
 ```mermaid
 flowchart TD
     A[Inicio] --> B[Definir lista de palabras]
