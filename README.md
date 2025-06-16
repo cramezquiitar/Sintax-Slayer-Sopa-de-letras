@@ -203,7 +203,7 @@ flowchart TD
     D -->|Fácil| E[Definir tablero 10x10]
     D -->|Medio| F[Definir tablero 20x20]
     D -->|Difícil| G[Definir tablero 30x30]
-    E --> H[Crear tablero con guiones (-)]
+    E --> H[Crear tablero con guiones]
     F --> H
     G --> H
 
@@ -218,7 +218,7 @@ flowchart TD
     O -->|Sí| I
     O -->|No| P[Recorrer tablero]
 
-    P --> Q{¿Celda es "-"?}
+    P --> Q{¿Celda es -?}
     Q -->|Sí| R[Rellenar con letra aleatoria]
     Q -->|No| S[Siguiente celda]
     R --> S
@@ -230,8 +230,8 @@ flowchart TD
     V --> W{¿Quedan palabras por encontrar?}
     W -->|Sí| X[Pedir palabra al usuario]
     X --> Y{¿Está en lista y en tablero?}
-    Y -->|Sí| Z[Mostrar "Correcto"\nAumentar puntuación\nMarcar como encontrada]
-    Y -->|No| AA[Mostrar "Incorrecto o ya encontrada"]
+    Y -->|Sí| Z[Mostrar Correcto\nAumentar puntuación\nMarcar como encontrada]
+    Y -->|No| AA[Mostrar Incorrecto o ya encontrada]
     Z --> W
     AA --> W
 
