@@ -1,4 +1,4 @@
-# Sintax-Slayer-Sopa-de-letras
+# Sintax-Slayer-Sopa-de-letras ⚔️
 
 ### Programacion de computadores
 
@@ -34,7 +34,7 @@ Python: "Python es un lenguaje de programación interpretado, orientado a objeto
 ## Objetivo: 📌
 Desarrollar una aplicación en Python que genere y permita jugar una sopa de letras de tamaño mínimo 10x10 y máximo 30x30, utilizando palabras clave relacionadas con la carrera de Ingeniería Civil, aplicando los conocimientos adquiridos durante el curso de programación.
 
-## Objetivos especificos 
+## Objetivos especificos 📎
 - Implementar estructuras de datos adecuadas (listas, matrices) para representar el tablero de la sopa de letras y gestionar el contenido de forma dinámica.
 
 - Aplicar algoritmos de inserción y búsqueda de palabras en distintas direcciones (horizontal, vertical y diagonal), asegurando que estas no se sobrepongan incorrectamente ni excedan los límites de la matriz.
@@ -49,11 +49,14 @@ Desarrollar una aplicación en Python que genere y permita jugar una sopa de let
 
 - Incorporar elementos básicos de validación y control de errores, como verificar la validez de palabras ingresadas o el rango del tablero.
 
-## Lluvia de ideas:
+![image](https://github.com/user-attachments/assets/cd79d883-b451-4d22-97b3-672ce2ba738d)
+
+
+## Lluvia de ideas: 💡
 
 #### Decidimos hacer una lluvia de ideas para entender el problema y plantear cómo abordar la solución. Algunas de las ideas fueron: 
 
-### -FUNCIONALIDADES BÁSICAS
+### -FUNCIONALIDADES BÁSICAS 🧾
 - Generar sopa de letras en consola.
 
 - Cargar lista de palabras desde archivo.
@@ -77,7 +80,7 @@ Desarrollar una aplicación en Python que genere y permita jugar una sopa de let
 
 - Modo contrarreloj o por turnos.
 
-### -ALGORITMOS Y LÓGICA
+### -ALGORITMOS Y LÓGICA 🔡
 - Algoritmo de inserción de palabras sin que estas se sobrepongan o obstaculiccen el juego.
 
 - Uso de matrices (listas anidadas) para representar el tablero.
@@ -88,7 +91,7 @@ Desarrollar una aplicación en Python que genere y permita jugar una sopa de let
 
 - Algoritmo de validación rápida de respuestas.
 
-## MAPA CONCEPTUAL DEL DESARROLLO DEL PROYECTO
+## MAPA CONCEPTUAL DEL DESARROLLO DEL PROYECTO 📢
 ```mermaid 
 graph TD
     A[Inicio del proyecto] --> B[Lluvia de ideas]
