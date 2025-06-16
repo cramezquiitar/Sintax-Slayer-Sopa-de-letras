@@ -143,7 +143,7 @@ graph TD
 ```
 INICIO
 
-  // 1. INICIALIZACIÓN
+  // 1. INICIO
   DEFINIR lista_palabras ← ["hormigon", "cimentacion", "topografia", "estructura", "puente", "acero", "viga", "columna", "plano", "geotecnia"]
   PEDIR al usuario el tamaño del tablero (filas, columnas)
   SI el tamaño está fuera del rango 10x10 a 30x30
