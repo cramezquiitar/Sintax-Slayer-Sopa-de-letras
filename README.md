@@ -66,7 +66,7 @@ Mostrar la palabra encontrada resaltada (con colores o mayúsculas).
 
 Limitar número de intentos por palabra.
 
-### -MECÁNICAS DE JUEGO
+### POSIBLES MECÁNICAS DE JUEGO
 Dificultad seleccionable (tamaño de matriz, número de palabras).
 
 Temporizador para resolver la sopa.
