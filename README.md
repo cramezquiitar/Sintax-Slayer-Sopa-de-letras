@@ -16,20 +16,12 @@ Nosotros como equipo escogimos la alternativa 1 para entenderla y desarrollarla
 
 La alternativa es: Construir una aplicación que emule una sopa de letras utilizando Python.
 
-Para comenzar abordando el problema planteado decidimos desglosarlo y estenderlo por partes más pequeñas para facilitar el trabajo
-Comenzamos sacando palabras clave, estas fueron: 
+Para comenzar abordando el problema planteado decidimos desglosarlo y estenderlo por partes más pequeñas para facilitar el trabajo: 
 
-Construir: “Hacer algo utilizando los elementos adecuados.” (RAE, definición 2ª, disponible en: https://dle.rae.es/construir)
 
-Aplicación: “Programa preparado para una utilización específica, como el pago de nóminas, el tratamiento de textos, etc.” (RAE, definición 4ª, disponible en: https://dle.rae.es/aplicación)
+Que es una sopa de letras?
+Una sopa de letras es un juego de palabras que consiste en encontrar palabras ocultas dentro de una cuadrícula de letras dispuestas en filas y columnas. Estas palabras pueden estar colocadas en cualquier dirección
 
-Emular: “Imitar las acciones de otro procurando igualarlas e incluso excederlas.” (RAE, definición 1ª, disponible en: https://dle.rae.es/emular)
-
-Sopa de letras: "Pasatiempo consistente en encontrar ciertas palabras dentro de un cuadro compuesto de letras aparentemente desordenadas." (RAE, definición 1ª, disponible en: https://dle.rae.es/sopa)
-
-Python: "Python es un lenguaje de programación interpretado, orientado a objetos y de alto nivel, con semántica dinámica." (Python, disponible en https://www.python.org/doc/essays/blurb/)
-
-![image](https://github.com/user-attachments/assets/d5afc8ca-5baf-4f2d-ba82-7c76509bb56f)
 
 ## Objetivo: 📌
 Desarrollar una aplicación en Python que genere y permita jugar una sopa de letras de tamaño mínimo 10x10 y máximo 30x30, utilizando palabras clave relacionadas con la carrera de Ingeniería Civil, aplicando los conocimientos adquiridos durante el curso de programación.
@@ -50,6 +42,20 @@ Desarrollar una aplicación en Python que genere y permita jugar una sopa de let
 - Incorporar elementos básicos de validación y control de errores, como verificar la validez de palabras ingresadas o el rango del tablero.
 
 ![image](https://github.com/user-attachments/assets/cd79d883-b451-4d22-97b3-672ce2ba738d)
+
+## Palabras Clave: 
+
+Construir: “Hacer algo utilizando los elementos adecuados.” (RAE, definición 2ª, disponible en: https://dle.rae.es/construir)
+
+Aplicación: “Programa preparado para una utilización específica, como el pago de nóminas, el tratamiento de textos, etc.” (RAE, definición 4ª, disponible en: https://dle.rae.es/aplicación)
+
+Emular: “Imitar las acciones de otro procurando igualarlas e incluso excederlas.” (RAE, definición 1ª, disponible en: https://dle.rae.es/emular)
+
+Sopa de letras: "Pasatiempo consistente en encontrar ciertas palabras dentro de un cuadro compuesto de letras aparentemente desordenadas." (RAE, definición 1ª, disponible en: https://dle.rae.es/sopa)
+
+Python: "Python es un lenguaje de programación interpretado, orientado a objetos y de alto nivel, con semántica dinámica." (Python, disponible en https://www.python.org/doc/essays/blurb/)
+
+![image](https://github.com/user-attachments/assets/d5afc8ca-5baf-4f2d-ba82-7c76509bb56f)
 
 
 ## Lluvia de ideas: 💡
