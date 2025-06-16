@@ -78,7 +78,7 @@ Penalización por errores o tiempo.
 Modo contrarreloj o por turnos.
 
 ### -ALGORITMOS Y LÓGICA
-Algoritmo de inserción de palabras sin colisiones.
+Algoritmo de inserción de palabras sin que estas se sobrepongan o obstaculiccen el juego.
 
 Uso de matrices (listas anidadas) para representar el tablero.
 
