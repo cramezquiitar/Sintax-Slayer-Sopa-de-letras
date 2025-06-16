@@ -138,3 +138,61 @@ graph TD
     F --> F4[Ranking o puntuación]
     F --> F5[Versión web o app móvil]
 ```
+
+
+```
+INICIO
+
+  // 1. INICIALIZACIÓN
+  DEFINIR lista_palabras ← ["hormigon", "cimentacion", "topografia", "estructura", "puente", "acero", "viga", "columna", "plano", "geotecnia"]
+  PEDIR al usuario el tamaño del tablero (filas, columnas)
+  SI el tamaño está fuera del rango 10x10 a 30x30
+    MOSTRAR "Tamaño no válido. Intenta de nuevo."
+    TERMINAR programa
+  FIN SI
+
+  CREAR tablero ← matriz vacía de tamaño (filas x columnas) con guiones (-)
+
+  // 2. INSERTAR PALABRAS EN EL TABLERO
+  PARA cada palabra EN lista_palabras HACER
+    REPETIR
+      ELEGIR dirección aleatoria (horizontal, vertical, diagonal)
+      ELEGIR posición inicial aleatoria dentro del tablero
+      SI cabe la palabra en esa dirección y no hay conflicto
+        INSERTAR la palabra en el tablero
+        salir del bucle REPETIR
+      FIN SI
+    HASTA que se inserte correctamente
+  FIN PARA
+
+  // 3. LLENAR LOS ESPACIOS VACÍOS CON LETRAS ALEATORIAS
+  PARA cada fila del tablero
+    PARA cada columna
+      SI la celda contiene "-"
+        RELLENAR con una letra aleatoria de A-Z
+      FIN SI
+    FIN PARA
+  FIN PARA
+
+  // 4. MOSTRAR EL TABLERO AL USUARIO
+  IMPRIMIR tablero en pantalla
+
+  // 5. FASE DE JUEGO: BUSCAR PALABRAS
+  INICIAR puntuación ← 0
+  MIENTRAS haya palabras por encontrar Y no se acabe el tiempo o intentos
+    PEDIR al usuario una palabra encontrada
+    SI la palabra está en la lista y ya fue insertada en el tablero
+      MOSTRAR "Correcto"
+      AUMENTAR puntuación
+      MARCAR palabra como encontrada
+    SINO
+      MOSTRAR "Incorrecto o ya encontrada"
+    FIN SI
+  FIN MIENTRAS
+
+  // 6. FINAL DEL JUEGO
+  MOSTRAR mensaje de fin de juego
+  MOSTRAR puntuación final
+
+FIN
+```
