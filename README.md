@@ -88,6 +88,7 @@ Marcar letras usadas para evitar sobreposiciones inválidas.
 
 Algoritmo de validación rápida de respuestas.
 
+## MAPA CONCEPTUAL DEL DESARROLLO DEL PROYECTO
 ```mermaid 
 graph TD
     A[Inicio del proyecto] --> B[Lluvia de ideas]
