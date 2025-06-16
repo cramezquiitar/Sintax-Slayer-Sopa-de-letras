@@ -176,7 +176,7 @@ INICIO
 
   // 5. FASE DE JUEGO: BUSCAR PALABRAS
   INICIAR puntuación ← 0
-  MIENTRAS haya palabras por encontrar Y no se acabe el tiempo o intentos
+  MIENTRAS haya palabras por encontrar
     PEDIR al usuario una palabra encontrada
     SI la palabra está en la lista y ya fue insertada en el tablero
       MOSTRAR "Correcto"
