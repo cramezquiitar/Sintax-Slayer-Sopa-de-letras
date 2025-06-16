@@ -59,8 +59,6 @@ Desarrollar una aplicación en Python que genere y permita jugar una sopa de let
 ### -FUNCIONALIDADES BÁSICAS 🧾
 - Generar sopa de letras en consola.
 
-- Cargar lista de palabras desde archivo.
-
 - Insertar palabras en direcciones: horizontal, vertical, diagonal.
 
 - Verificar si una palabra ingresada por el usuario está en la sopa.
@@ -81,15 +79,13 @@ Desarrollar una aplicación en Python que genere y permita jugar una sopa de let
 - Modo contrarreloj o por turnos.
 
 ### -ALGORITMOS Y LÓGICA 🔡
-- Algoritmo de inserción de palabras sin que estas se sobrepongan o obstaculiccen el juego.
-
 - Uso de matrices (listas anidadas) para representar el tablero.
 
 - Búsqueda en 8 direcciones (↔ ↕ ↘ ↙ ↗ ↖).
 
 - Marcar letras usadas para evitar sobreposiciones inválidas.
 
-- Algoritmo de validación rápida de respuestas.
+- Algoritmo que confirme la respuesta correcta.
 
 ## MAPA CONCEPTUAL DEL DESARROLLO DEL PROYECTO 📢
 ```mermaid 
@@ -145,10 +141,11 @@ INICIO
 
   // 1. INICIO
   DEFINIR lista_palabras ← ["hormigon", "cimentacion", "topografia", "estructura", "puente", "acero", "viga", "columna", "plano", "geotecnia"]
-  PEDIR al usuario el tamaño del tablero (filas, columnas)
-  SI el tamaño está fuera del rango 10x10 a 30x30
-    MOSTRAR "Tamaño no válido. Intenta de nuevo."
-    TERMINAR programa
+  PEDIR al usuario escoger la dificultad (Difícil, medio, facil)
+  SI la dificultad es facil: 10x10
+  SI la dificultad es medio: 20x20
+  SI la dificultad es difícil: 30x30
+   
   FIN SI
 
   CREAR tablero ← matriz vacía de tamaño (filas x columnas) con guiones (-)
@@ -175,7 +172,7 @@ INICIO
   FIN PARA
 
   // 4. MOSTRAR EL TABLERO AL USUARIO
-  IMPRIMIR tablero en pantalla
+  IMPRIMIR tablero en la consola
 
   // 5. FASE DE JUEGO: BUSCAR PALABRAS
   INICIAR puntuación ← 0
